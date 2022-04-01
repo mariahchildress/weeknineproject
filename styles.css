@@ -1,0 +1,33 @@
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active{
+    color: blue;
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    text-align: center;
+}

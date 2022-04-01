@@ -1,0 +1,22 @@
+{
+  "name": "week-9-coding-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariahchildress/weeknineproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariahchildress/weeknineproject/issues"
+  },
+  "homepage": "https://github.com/mariahchildress/weeknineproject#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
