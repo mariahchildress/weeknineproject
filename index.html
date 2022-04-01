@@ -6,40 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disneyland Planning</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div {
+            border-style: solid;
+            border-color: purple;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
 
-   <div>
-       <a href="index.html">Home</a>
-       <a href="contact.html">Contact</a>
-   </div>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Disneyland Planning</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <h1>Welcome to my website!</h1>
-
-    <p>This is where I tell you about the services I provide and how I provide them.</p>
-
-    <table class="center">
-        <tr>
-            <th>Vacation Lengths</th>
-            <th>Ticket Media</th>
-            <th>Disneyland Resort Hotel</th>
-        </tr>
-        <tr>
-            <td>2 days</td>
-            <td>1 park per day</td>
-            <td>Disneyland Hotel</td>
-        </tr>
-        <tr>
-            <td>3 days</td>
-            <td>3 day park hopper</td>
-            <td>Paradise Pier Hotel</td>
-        </tr>
-        <tr>
-            <td>4 days</td>
-            <td>4 day park hopper</td>
-            <td>Disney's Grand Californian Hotel</td>
-        </tr>
-    </table>
+    <div class="containter">
+        <div class="row">
+            <div class="col-sm">
+                <h1>Welcome to my website!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p>This is where I tell you about the services I provide and how I provide them.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <table class="table table-light table-hover">
+                    <tr>
+                        <th>Vacation Lengths</th>
+                        <th>Ticket Media</th>
+                        <th>Disneyland Resort Hotel</th>
+                    </tr>
+                    <tr>
+                        <td>2 days</td>
+                        <td>1 park per day</td>
+                        <td>Disneyland Hotel</td>
+                    </tr>
+                    <tr>
+                        <td>3 days</td>
+                        <td>3 day park hopper</td>
+                        <td>Paradise Pier Hotel</td>
+                    </tr>
+                    <tr>
+                        <td>4 days</td>
+                        <td>4 day park hopper</td>
+                        <td>Disney's Grand Californian Hotel</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
     
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/boostrap/dist/js/bootstrapbundle.js"></script>
 </body>
 </html>

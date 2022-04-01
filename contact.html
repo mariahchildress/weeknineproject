@@ -6,25 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div {
+            border-style: solid;
+            border-color: purple;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
 
-    <div>
-        <a href="index.html">Home</a>
-        <a href="contact.html">Contact</a>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Disneyland Planning</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="containter">
+        <div class="row">
+            <div class="col-sm">
+                <h1>Fill in the Form Below for More Information about Planning your Disneyland Vacation</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <form>
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="firstName" class="form-control" id="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="lastName" class="form-control" id="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailAddress">Email Address:</label>
+                        <input type="emailAddress" class="form-control" id="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <label for="travelDates">Intended Travel Dates:</label>
+                        <input type="travelDates" class="form-control" id="Intended Travel Dates">
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Travel Budget:</label>
+                        <input type="budget" class="form-control" id="Travel Budget">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactTime">Best Time to Contact:</label>
+                        <input type="contactTime" class="form-control" id="Best Time to Contact">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
     </div>
 
-    <h1>Fill in the Form Below for More Information about Planning your Disneyland Vacation</h1>
-
-    <form>
-        <input type="text" name="firstName" placeholder="First Name"><br>
-        <input type="text" name="lastName" placeholder="Last Name"><br>
-        <input type="text" name="emailAddress" placeholder="Email Address"><br>
-        <input type="text" name="travelDates" placeholder="Intended Travel Dates"><br>
-        <input type="text" name="budget" placeholder="Travel Budget"><br>
-        <input type="text" name="contactTime" placeholder="Best Time to Contact"><br>
-        <input type="submit">
-    </form>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/boostrap/dist/js/bootstrapbundle.js"></script>
     
 </body>
 </html>
